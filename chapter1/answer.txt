@@ -1,0 +1,13 @@
+ref: 
+(1)http://clrs.skanev.com/index.html
+(2)https://notebookbft.files.wordpress.com/2015/10/clrs-solution-collection.pdf
+
+1.1-1. Catalog / List sorting
+1.1-2. resource utilization (network, database); memory usage
+1.1-3. array, not good for searching, fast accessing time
+1.1-4. similar: walk through gragh and find path; 
+       difference: require path between two points vs path travelling across
+       several points and finally get back to the starting point
+1.1-5. sorting names in alphabet order; find the shortest way to get to dest.
+
+
