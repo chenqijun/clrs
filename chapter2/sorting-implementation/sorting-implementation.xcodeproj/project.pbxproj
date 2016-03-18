@@ -10,6 +10,8 @@
 		077A319F1C99340000ADBFFC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A319E1C99340000ADBFFC /* main.cpp */; };
 		077A31A71C99341A00ADBFFC /* insertionsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31A51C99341A00ADBFFC /* insertionsort.cpp */; };
 		077A31AA1C99386400ADBFFC /* insertionsort-nonincreasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31A81C99386400ADBFFC /* insertionsort-nonincreasing.cpp */; };
+		07B730C41C9B2499005DAF95 /* mergesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B730C21C9B2499005DAF95 /* mergesort.cpp */; };
+		07B730C71C9B7A2E005DAF95 /* insertionsort-recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		077A31A61C99341A00ADBFFC /* insertionsort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = insertionsort.hpp; sourceTree = "<group>"; };
 		077A31A81C99386400ADBFFC /* insertionsort-nonincreasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "insertionsort-nonincreasing.cpp"; sourceTree = "<group>"; };
 		077A31A91C99386400ADBFFC /* insertionsort-nonincreasing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "insertionsort-nonincreasing.hpp"; sourceTree = "<group>"; };
+		07B730C21C9B2499005DAF95 /* mergesort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergesort.cpp; sourceTree = "<group>"; };
+		07B730C31C9B2499005DAF95 /* mergesort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mergesort.hpp; sourceTree = "<group>"; };
+		07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "insertionsort-recursion.cpp"; sourceTree = "<group>"; };
+		07B730C61C9B7A2E005DAF95 /* insertionsort-recursion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "insertionsort-recursion.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				077A31A61C99341A00ADBFFC /* insertionsort.hpp */,
 				077A31A81C99386400ADBFFC /* insertionsort-nonincreasing.cpp */,
 				077A31A91C99386400ADBFFC /* insertionsort-nonincreasing.hpp */,
+				07B730C21C9B2499005DAF95 /* mergesort.cpp */,
+				07B730C31C9B2499005DAF95 /* mergesort.hpp */,
+				07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */,
+				07B730C61C9B7A2E005DAF95 /* insertionsort-recursion.hpp */,
 			);
 			path = "sorting-implementation";
 			sourceTree = "<group>";
@@ -130,7 +140,9 @@
 			files = (
 				077A31AA1C99386400ADBFFC /* insertionsort-nonincreasing.cpp in Sources */,
 				077A319F1C99340000ADBFFC /* main.cpp in Sources */,
+				07B730C41C9B2499005DAF95 /* mergesort.cpp in Sources */,
 				077A31A71C99341A00ADBFFC /* insertionsort.cpp in Sources */,
+				07B730C71C9B7A2E005DAF95 /* insertionsort-recursion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +261,7 @@
 				077A31A41C99340000ADBFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
