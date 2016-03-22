@@ -11,7 +11,7 @@
 #include "insertionsort-nonincreasing.hpp"
 #include "mergesort.hpp"
 #include "insertionsort-recursion.hpp"
-
+#include "twosum.hpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
@@ -20,5 +20,7 @@ int main(int argc, const char * argv[]) {
     testMergeSort();
     insertionSortRecursion a;
     a.test();
+    twoSum ts;
+    ts.test();
     return 0;
 }

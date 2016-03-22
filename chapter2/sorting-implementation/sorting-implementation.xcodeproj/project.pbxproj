@@ -10,6 +10,9 @@
 		077A319F1C99340000ADBFFC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A319E1C99340000ADBFFC /* main.cpp */; };
 		077A31A71C99341A00ADBFFC /* insertionsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31A51C99341A00ADBFFC /* insertionsort.cpp */; };
 		077A31AA1C99386400ADBFFC /* insertionsort-nonincreasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31A81C99386400ADBFFC /* insertionsort-nonincreasing.cpp */; };
+		077A31C31C9D27F700ADBFFC /* twosum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31C11C9D27F700ADBFFC /* twosum.cpp */; };
+		077A31C61C9E57E000ADBFFC /* mergesort-with-insertionsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31C41C9E57E000ADBFFC /* mergesort-with-insertionsort.cpp */; };
+		077A31C91C9F3C4A00ADBFFC /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31C71C9F3C4A00ADBFFC /* basic.cpp */; };
 		07B730C41C9B2499005DAF95 /* mergesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B730C21C9B2499005DAF95 /* mergesort.cpp */; };
 		07B730C71C9B7A2E005DAF95 /* insertionsort-recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */; };
 /* End PBXBuildFile section */
@@ -33,6 +36,12 @@
 		077A31A61C99341A00ADBFFC /* insertionsort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = insertionsort.hpp; sourceTree = "<group>"; };
 		077A31A81C99386400ADBFFC /* insertionsort-nonincreasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "insertionsort-nonincreasing.cpp"; sourceTree = "<group>"; };
 		077A31A91C99386400ADBFFC /* insertionsort-nonincreasing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "insertionsort-nonincreasing.hpp"; sourceTree = "<group>"; };
+		077A31C11C9D27F700ADBFFC /* twosum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twosum.cpp; sourceTree = "<group>"; };
+		077A31C21C9D27F700ADBFFC /* twosum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = twosum.hpp; sourceTree = "<group>"; };
+		077A31C41C9E57E000ADBFFC /* mergesort-with-insertionsort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mergesort-with-insertionsort.cpp"; sourceTree = "<group>"; };
+		077A31C51C9E57E000ADBFFC /* mergesort-with-insertionsort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "mergesort-with-insertionsort.hpp"; sourceTree = "<group>"; };
+		077A31C71C9F3C4A00ADBFFC /* basic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basic.cpp; sourceTree = "<group>"; };
+		077A31C81C9F3C4A00ADBFFC /* basic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = basic.hpp; sourceTree = "<group>"; };
 		07B730C21C9B2499005DAF95 /* mergesort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergesort.cpp; sourceTree = "<group>"; };
 		07B730C31C9B2499005DAF95 /* mergesort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mergesort.hpp; sourceTree = "<group>"; };
 		07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "insertionsort-recursion.cpp"; sourceTree = "<group>"; };
@@ -78,6 +87,12 @@
 				07B730C31C9B2499005DAF95 /* mergesort.hpp */,
 				07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */,
 				07B730C61C9B7A2E005DAF95 /* insertionsort-recursion.hpp */,
+				077A31C11C9D27F700ADBFFC /* twosum.cpp */,
+				077A31C21C9D27F700ADBFFC /* twosum.hpp */,
+				077A31C41C9E57E000ADBFFC /* mergesort-with-insertionsort.cpp */,
+				077A31C51C9E57E000ADBFFC /* mergesort-with-insertionsort.hpp */,
+				077A31C71C9F3C4A00ADBFFC /* basic.cpp */,
+				077A31C81C9F3C4A00ADBFFC /* basic.hpp */,
 			);
 			path = "sorting-implementation";
 			sourceTree = "<group>";
@@ -142,7 +157,10 @@
 				077A319F1C99340000ADBFFC /* main.cpp in Sources */,
 				07B730C41C9B2499005DAF95 /* mergesort.cpp in Sources */,
 				077A31A71C99341A00ADBFFC /* insertionsort.cpp in Sources */,
+				077A31C91C9F3C4A00ADBFFC /* basic.cpp in Sources */,
+				077A31C31C9D27F700ADBFFC /* twosum.cpp in Sources */,
 				07B730C71C9B7A2E005DAF95 /* insertionsort-recursion.cpp in Sources */,
+				077A31C61C9E57E000ADBFFC /* mergesort-with-insertionsort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
