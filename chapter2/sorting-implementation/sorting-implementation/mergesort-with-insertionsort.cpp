@@ -20,7 +20,10 @@ void MergesortWithInsertionSort::test() {
 }
 
 vector<int> MergesortWithInsertionSort::mergeSortWithInsertionSort(vector<int> &arr, int left, int right) {
-    int insertionSortMax = log2()
+    int insertionSortMax = log2(arr.size());
+    if (right - left <= insertionSortMax) {
+        return insertionSort(arr, left, right);
+    }
     vector<int> result;
     if (left == right) {
         result.push_back(

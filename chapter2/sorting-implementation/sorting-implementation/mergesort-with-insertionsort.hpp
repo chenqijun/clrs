@@ -21,7 +21,7 @@ class MergesortWithInsertionSort {
 public:
     void test();
     vector<int> mergeSortWithInsertionSort(vector<int> &arr, int left, int right);
-    vector<int> insertionSort(vector<int> &arr);
+    vector<int> insertionSort(vector<int> &arr, int start, int end);
     vector<int> merge(vector<int> arr1, vector<int> arr2);
     
 private:
