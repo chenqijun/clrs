@@ -15,6 +15,7 @@
 		077A31C91C9F3C4A00ADBFFC /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077A31C71C9F3C4A00ADBFFC /* basic.cpp */; };
 		07B730C41C9B2499005DAF95 /* mergesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B730C21C9B2499005DAF95 /* mergesort.cpp */; };
 		07B730C71C9B7A2E005DAF95 /* insertionsort-recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */; };
+		07C857861CA5F52600434166 /* bubblesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07C857841CA5F52600434166 /* bubblesort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		07B730C31C9B2499005DAF95 /* mergesort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mergesort.hpp; sourceTree = "<group>"; };
 		07B730C51C9B7A2E005DAF95 /* insertionsort-recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "insertionsort-recursion.cpp"; sourceTree = "<group>"; };
 		07B730C61C9B7A2E005DAF95 /* insertionsort-recursion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "insertionsort-recursion.hpp"; sourceTree = "<group>"; };
+		07C857841CA5F52600434166 /* bubblesort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bubblesort.cpp; sourceTree = "<group>"; };
+		07C857851CA5F52600434166 /* bubblesort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bubblesort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				077A31C51C9E57E000ADBFFC /* mergesort-with-insertionsort.hpp */,
 				077A31C71C9F3C4A00ADBFFC /* basic.cpp */,
 				077A31C81C9F3C4A00ADBFFC /* basic.hpp */,
+				07C857841CA5F52600434166 /* bubblesort.cpp */,
+				07C857851CA5F52600434166 /* bubblesort.hpp */,
 			);
 			path = "sorting-implementation";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C857861CA5F52600434166 /* bubblesort.cpp in Sources */,
 				077A31AA1C99386400ADBFFC /* insertionsort-nonincreasing.cpp in Sources */,
 				077A319F1C99340000ADBFFC /* main.cpp in Sources */,
 				07B730C41C9B2499005DAF95 /* mergesort.cpp in Sources */,

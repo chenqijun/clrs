@@ -12,6 +12,9 @@
 #include "mergesort.hpp"
 #include "insertionsort-recursion.hpp"
 #include "twosum.hpp"
+#include "mergesort-with-insertionsort.hpp"
+#include "bubblesort.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
@@ -22,5 +25,11 @@ int main(int argc, const char * argv[]) {
     a.test();
     twoSum ts;
     ts.test();
+
+    MergesortWithInsertionSort mwis;
+    mwis.test();
+    
+    BubbleSort bs;
+    bs.test();
     return 0;
 }
