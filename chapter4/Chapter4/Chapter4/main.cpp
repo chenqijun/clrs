@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "Section1_Maximum_Subarray_Problem.hpp"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+    Section1_Maximum_Subarray_Problem m_Section1_Maximum_Subarray_Problem;
+    m_Section1_Maximum_Subarray_Problem.test();
     return 0;
 }
