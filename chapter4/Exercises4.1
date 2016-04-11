@@ -1,0 +1,17 @@
+1.
+Will return the max negative number.
+
+2.
+int low = 0, high = 1, maxProfit = arr[high] - arr[low]
+for i = 0 to n - 1
+	for j = i+1 to n
+		profit = arr[j] - arr[i]
+		if (profit > maxProfit) {
+			low = i
+			high = j
+			maxProfit = profit
+		}
+
+return tuple<int,int,int>(i, j, maxProfit)
+
+3.
