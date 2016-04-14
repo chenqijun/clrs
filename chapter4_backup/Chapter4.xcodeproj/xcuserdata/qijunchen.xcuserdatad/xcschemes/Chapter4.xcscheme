@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07DA12211CC05A930086F89A"
-               BuildableName = "chapter4"
-               BlueprintName = "chapter4"
-               ReferencedContainer = "container:chapter4.xcodeproj">
+               BlueprintIdentifier = "07D390A21CB7789900058FD0"
+               BuildableName = "Chapter4"
+               BlueprintName = "Chapter4"
+               ReferencedContainer = "container:Chapter4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07DA12211CC05A930086F89A"
-            BuildableName = "chapter4"
-            BlueprintName = "chapter4"
-            ReferencedContainer = "container:chapter4.xcodeproj">
+            BlueprintIdentifier = "07D390A21CB7789900058FD0"
+            BuildableName = "Chapter4"
+            BlueprintName = "Chapter4"
+            ReferencedContainer = "container:Chapter4.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07DA12211CC05A930086F89A"
-            BuildableName = "chapter4"
-            BlueprintName = "chapter4"
-            ReferencedContainer = "container:chapter4.xcodeproj">
+            BlueprintIdentifier = "07D390A21CB7789900058FD0"
+            BuildableName = "Chapter4"
+            BlueprintName = "Chapter4"
+            ReferencedContainer = "container:Chapter4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07DA12211CC05A930086F89A"
-            BuildableName = "chapter4"
-            BlueprintName = "chapter4"
-            ReferencedContainer = "container:chapter4.xcodeproj">
+            BlueprintIdentifier = "07D390A21CB7789900058FD0"
+            BuildableName = "Chapter4"
+            BlueprintName = "Chapter4"
+            ReferencedContainer = "container:Chapter4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
