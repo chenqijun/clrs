@@ -14,4 +14,38 @@ for i = 0 to n - 1
 
 return tuple<int,int,int>(i, j, maxProfit)
 
-3.
+3. See the code.
+
+4. 
+brute force: int low = -1, high = -1, maxProfit = 0
+
+divide conquer
+
+vector<int> maxProfits(vector<int> arr) {
+	tuple<int, int, int> result = {-1, -1, 0};
+	vector<int> diffs;
+	for (int i = 1; i < arr.size(); i++) {
+		diffs.push_back(arr[i] - arr[i - 1]);
+	}
+	result = maxSubArray(diffs, 0, diffs.size() - 1);
+	
+	return result;
+}
+
+tuple<int, int, int> maxSubArray(vector<int> arr, int low, int high) {
+	int mid = (low + high) / 2;
+	
+	tuple<int,int,int> maxLeft = maxSubArray(arr, low, mid - 1);
+	tuple<int,int,int> maxRight = maxSubArray(arr, mid + 1, high);
+
+	// process the cross
+	tuple<int, int, int> maxCrossMid = {-1, -1, 0};
+	int sum = 0;
+	for (int i = mid; i >= low; i--) {
+		sum = sum + arr[mid];
+		int temp_sum = sum;
+		for (int j = mid + 1; j <= high; j++) {
+			temp_sum = temp_sum + arr[j];
+		}
+	}
+}
